@@ -5,13 +5,13 @@ body {
   margin-bottom: 100px;
   background: #cccccc;
   text-align: center;
-  text-shadow: 20px 50px 20px #66FF99;
+  text-shadow: 20px 5px 20px #66FF99;
   text-transform: full-width;
   font-weight: bold;
   font-family: serif;
-  font-size: 100px;
+  font-size: 90px;
   line-height: 1em;
-  letter-spacing: 0.2em;
+  letter-spacing: -0.2em;
 }
 
 h1:before {
