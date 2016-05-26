@@ -1,5 +1,8 @@
 body {
   margin-top: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 100px;
   background: #cccccc;
   text-align: center;
   text-shadow: 20px 5px 20px #66FF99;
