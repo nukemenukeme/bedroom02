@@ -1,15 +1,11 @@
 body {
   margin-top: 100px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 100px;
   background: #cccccc;
   text-align: center;
   text-shadow: 20px 5px 20px #66FF99;
-  text-transform: full-width;
   font-weight: bold;
   font-family: serif;
-  font-size: 90px;
+  font-size: 80px;
   line-height: 1em;
   letter-spacing: -0.2em;
 }
@@ -28,4 +24,12 @@ h5:before {
   content:"supported";
   font-size:10px;
   letter-spacing: 1em;
+}
+p:hover > .flash1{
+  animation: Flash1 1s infinite;
+}
+@keyframes Flash1{
+  50%{
+    opacity: 0;
+  }
 }
