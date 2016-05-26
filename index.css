@@ -16,14 +16,18 @@ h1:before {
   font-size:10px;
   letter-spacing: -2em
 }
+h1 {
+    line-height: 1em;
+    letter-spacing: -0.2em;
+}
 h4 {
     line-height: normal;
-      letter-spacing: normal;
+    letter-spacing: normal;
 }
 h5 { line-height: normal;
-      letter-spacing: 1em;
+    letter-spacing: 1em;
 }
 p {
    line-height: normal;
-      letter-spacing: 1em;
+   letter-spacing: 1em;
 }
