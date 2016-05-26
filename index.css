@@ -22,10 +22,6 @@ h1:before {
   content:"title";
   font-size:10px;
   letter-spacing: -0.2em
-  color:rgba(0,0,255,0.5);
-  position: absolute;
-  top;10px;
-  left:10px;
 }
 h4 {
     line-height: normal;
