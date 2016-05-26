@@ -9,7 +9,7 @@ body {
   text-transform: full-width;
   font-weight: bold;
   font-family: serif;
-  font-size: 50px;
+  font-size: 100px;
   line-height: 1em;
   letter-spacing: -0.2em;
 }
@@ -27,6 +27,9 @@ h2:before {
   content:"date";
   font-size:10px;
   letter-spacing: 1em;
+}
+h2{
+  line-height: 1em;
 }
 h3 {
   letter-spacing: 0.2em;
