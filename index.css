@@ -5,11 +5,27 @@ body {
   margin-bottom: 100px;
   background: #cccccc;
   text-align: center;
-  text-shadow: 0px 20px 20px #66FF99;
+  text-shadow: 20px 50px 20px #66FF99;
   text-transform: full-width;
   font-weight: bold;
   font-family: serif;
-  font-size: 80px;
+  font-size: 100px;
   line-height: 1em;
-  letter-spacing: -0.2em;
+  letter-spacing: 0.2em;
+}
+
+h1:before {
+  content:"title";
+  font-size:10px;
+  letter-spacing: 1em
+}
+h2:before {
+  content:"date";
+  font-size:10px;
+  letter-spacing: 1em;
+}
+h5:before {
+  content:"supported";
+  font-size:10px;
+  letter-spacing: 1em;
 }
