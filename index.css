@@ -8,14 +8,14 @@ body {
   font-size: 100px;
   line-height: 1em;
   letter-spacing: -0.2em;
-  -moz-animation: bgAnime 20s infinite linear;
-  -webkit-animation: bgAnime 20s infinite linear;
-  animation: bgAnime 20s infinite linear;
+  -moz-animation: bgAnime 60s infinite linear;
+  -webkit-animation: bgAnime 60s infinite linear;
+  animation: bgAnime 60s infinite linear;
 }
 
 @-webkit-keyframes bgAnime {
   0% {
-    background-color: #00b3ca;
+    background-color: #cccccc;
   }
   25% {
     background-color: #7dd0b6;
@@ -27,12 +27,12 @@ body {
     background-color: #ead98b;
   }
   100% {
-    background-color: #00b3ca;
+    background-color: #000000;
   }
 }
 @keyframes bgAnime {
   0% {
-    background-color: #00b3ca;
+    background-color: #cccccc;
   }
   25% {
     background-color: #7dd0b6;
@@ -44,7 +44,7 @@ body {
     background-color: #ead98b;
   }
   100% {
-    background-color: #00b3ca;
+    background-color: #000000;
   }
 }
 
@@ -58,14 +58,18 @@ h2:before {
   font-size:10px;
   letter-spacing: 1em;
 }
+h4 {
+  letter-spacing: 0.2em;
+}
 h5:before {
   content:"supported";
   font-size:10px;
   letter-spacing: 1em;
 }
 h5 {
-  letter-spacing: 0.4em;
+  letter-spacing: 0.2em;
 }
 p {
+  letter-spacing: 0.2em;
   word-spacing: 0.4em;
 }
