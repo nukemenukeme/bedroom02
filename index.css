@@ -3,6 +3,7 @@ body {
   background: #cccccc;
   text-align: center;
   text-shadow: 0px 25px 800px #66FF99;
+  text-transform: full-width;
   font-weight: bold;
   font-family: serif;
   font-size: 100px;
@@ -14,8 +15,8 @@ body {
   h4 { line-height: normal;
         letter-spacing: normal;}
   h5 { line-height: normal;
-        letter-spacing: normal;}
+        letter-spacing: 1em;}
   p { line-height: normal;
-        letter-spacing: 0.4em;}
+        letter-spacing: 1em;}
   </style>
 }
