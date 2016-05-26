@@ -8,6 +8,44 @@ body {
   font-size: 100px;
   line-height: 1em;
   letter-spacing: -0.2em;
+  -moz-animation: bgAnime 20s infinite linear;
+  -webkit-animation: bgAnime 20s infinite linear;
+  animation: bgAnime 20s infinite linear;
+}
+
+@-webkit-keyframes bgAnime {
+  0% {
+    background-color: #00b3ca;
+  }
+  25% {
+    background-color: #7dd0b6;
+  }
+  50% {
+    background-color: #f69256;
+  }
+  75% {
+    background-color: #ead98b;
+  }
+  100% {
+    background-color: #00b3ca;
+  }
+}
+@keyframes bgAnime {
+  0% {
+    background-color: #00b3ca;
+  }
+  25% {
+    background-color: #7dd0b6;
+  }
+  50% {
+    background-color: #f69256;
+  }
+  75% {
+    background-color: #ead98b;
+  }
+  100% {
+    background-color: #00b3ca;
+  }
 }
 
 h1:before {
@@ -26,20 +64,8 @@ h5:before {
   letter-spacing: 1em;
 }
 h5 {
-  letter-spacing: 1em;
+  letter-spacing: 0.4em;
 }
 p {
-  word-spacing: 1em;
+  word-spacing: 0.4em;
 }
-.henka-2 a {
-	color:rgba(17,17,17,1);
-	background:rgba(242,242,242,1);
-	padding:10px;
-	-webkit-transition: all 0.7s;
-	-moz-transition: all 0.7s;
-	transition: all 0.7s;
-	}
-.henka-2 a:hover{
-	color:rgba(255,255,255,1);
-	background:rgba(226,0,72,1);
-	}
