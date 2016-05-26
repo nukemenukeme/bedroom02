@@ -5,7 +5,7 @@ body {
   text-shadow: 20px 5px 20px #66FF99;
   font-weight: bold;
   font-family: serif;
-  font-size: 80px;
+  font-size: 100px;
   line-height: 1em;
   letter-spacing: -0.2em;
 }
@@ -25,7 +25,7 @@ h5:before {
   font-size:10px;
   letter-spacing: 1em;
 }
-p:hover > .flash1{
+h1:hover > .flash1{
   animation: Flash1 1s infinite;
 }
 @keyframes Flash1{
