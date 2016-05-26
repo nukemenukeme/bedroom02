@@ -3,6 +3,8 @@ body {
   background: #cccccc;
   text-align: center;
   text-shadow: 20px 5px 20px #66FF99;
+  text-decoration-style: wavy;
+  text-decoration: blink;
   font-weight: bold;
   font-family: serif;
   font-size: 100px;
@@ -25,11 +27,6 @@ h5:before {
   font-size:10px;
   letter-spacing: 1em;
 }
-h1:hover > .flash1{
-  animation: Flash1 1s infinite;
-}
-@keyframes Flash1{
-  50%{
-    opacity: 0;
-  }
+h5 {
+  letter-spacing: 1em;
 }
