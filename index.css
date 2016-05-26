@@ -3,8 +3,6 @@ body {
   background: #cccccc;
   text-align: center;
   text-shadow: 20px 5px 20px #66FF99;
-  text-decoration-style: wavy;
-  text-decoration: blink;
   font-weight: bold;
   font-family: serif;
   font-size: 100px;
@@ -30,3 +28,18 @@ h5:before {
 h5 {
   letter-spacing: 1em;
 }
+p {
+  word-spacing: 1em;
+}
+.henka-2 a {
+	color:rgba(17,17,17,1);
+	background:rgba(242,242,242,1);
+	padding:10px;
+	-webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	transition: all 0.7s;
+	}
+.henka-2 a:hover{
+	color:rgba(255,255,255,1);
+	background:rgba(226,0,72,1);
+	}
