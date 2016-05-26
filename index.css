@@ -1,5 +1,5 @@
 body {
-  margin-top: 80px;
+  margin-top: 100px;
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 100px;
@@ -9,7 +9,7 @@ body {
   text-transform: full-width;
   font-weight: bold;
   font-family: serif;
-  font-size: 100px;
+  font-size: 60px;
   line-height: 1em;
   letter-spacing: -0.2em;
 }
@@ -29,7 +29,7 @@ h2:before {
   letter-spacing: 1em;
 }
 h2{
-  line-height: 1em;
+  line-height: 0.2em;
 }
 h3 {
   letter-spacing: 0.2em;
