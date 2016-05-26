@@ -9,14 +9,34 @@ body {
   font-size: 100px;
   line-height: 1em;
   letter-spacing: -0.2em;
-
-  <style type="text/css">
-  h1 { margin-top: 0; margin-bottom: 0 }
-  h4 { line-height: normal;
-        letter-spacing: normal;}
-  h5 { line-height: normal;
-        letter-spacing: 1em;}
-  p { line-height: normal;
-        letter-spacing: 1em;}
-  </style>
+}
+.h1-container {
+  height:160px;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0
+  color:rgba(255,0,0,0.5);
+}
+h1:before {
+  content:"title";
+  font-size:10px;
+  letter-spacing: -0.2em
+  color:rgba(0,0,255,0.5);
+  content:"The Internet Bedroom";
+  text-shadow: 10px 25px 20px #FFFF66;
+  position: absolute;
+  top;10px;
+  left:10px;
+}
+h4 {
+    line-height: normal;
+      letter-spacing: normal;
+}
+h5 { line-height: normal;
+      letter-spacing: 1em;
+}
+p {
+   line-height: normal;
+      letter-spacing: 1em;
 }
