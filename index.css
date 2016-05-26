@@ -16,6 +16,10 @@ h1:before {
   font-size:10px;
   letter-spacing: -2em
 }
+h1 {
+    line-height: -0.5em;
+    letter-spacing: -0.4em;
+}
 h4 {
     line-height: normal;
     letter-spacing: normal;
