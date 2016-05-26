@@ -20,6 +20,11 @@ h1 {
     line-height: -0.1em;
     letter-spacing: -0.2em;
 }
+h2:before {
+  content:"date";
+  font-size:10px;
+  letter-spacing: -2em
+}
 h4 {
     line-height: normal;
     letter-spacing: normal;
