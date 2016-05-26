@@ -10,14 +10,7 @@ body {
   line-height: 1em;
   letter-spacing: -0.2em;
 }
-.h1-container {
-  height:160px;
-}
-h1 {
-  margin-top: 0;
-  margin-bottom: 0
-  color:rgba(255,0,0,0.5);
-}
+
 h1:before {
   content:"title";
   font-size:10px;
