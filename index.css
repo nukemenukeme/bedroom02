@@ -9,7 +9,7 @@ body {
   text-transform: full-width;
   font-weight: bold;
   font-family: serif;
-  font-size: 60px;
+  font-size: 80px;
   line-height: 1em;
   letter-spacing: -0.2em;
 }
@@ -29,14 +29,14 @@ h2:before {
   letter-spacing: 1em;
 }
 h2{
-  line-height: 0.2em;
+  line-height: 0.8em;
 }
 h3 {
   letter-spacing: 0.2em;
-  line-height: 0.4em;
+  line-height: 0.8em;
 }
 h4 {
-    line-height: 0.3em;
+    line-height: 0.8em;
     letter-spacing: 0.2em;
 }
 h5:before {
@@ -46,7 +46,7 @@ h5:before {
 }
 h5 {
     font-size: 60px;
-    line-height: 0.2em;
+    line-height: 0.8em;
     letter-spacing: 0.1em;
 }
 p {
