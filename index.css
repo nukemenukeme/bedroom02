@@ -17,13 +17,13 @@ h1:before {
   letter-spacing: -2em
 }
 h1 {
-    line-height: 0em;
+    line-height: 1em;
     letter-spacing: -0.1em;
 }
 h2:before {
   content:"date";
   font-size:10px;
-  letter-spacing: -2em
+  letter-spacing: -2em;
 }
 h3 {
   letter-spacing: 0.2em;
@@ -35,12 +35,14 @@ h4 {
 h5:before {
   content:"supported";
   font-size:10px;
-  letter-spacing: -2em
+  letter-spacing: -2em;
 }
-h5 { line-height: normal;
+h5 {
+    font-size: 60px;
+    line-height: normal;
     letter-spacing: 0.1em;
 }
 p {
-   line-height: normal;
-   letter-spacing: 0.3em;
+   line-height: -0.2em;
+   letter-spacing: 1em;
 }
