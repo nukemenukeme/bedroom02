@@ -21,7 +21,7 @@ h1 {
 h1:before {
   content:"title";
   font-size:10px;
-  letter-spacing: -0.4em
+  letter-spacing: 1em
 }
 h4 {
     line-height: normal;
