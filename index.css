@@ -19,12 +19,12 @@ h1 {
   color:rgba(255,0,0,0.5);
 }
 h1:before {
+  content:"The Internet Bedroom";
+  text-shadow: 10px 25px 20px #FFFF66;
   content:"title";
   font-size:10px;
   letter-spacing: -0.2em
   color:rgba(0,0,255,0.5);
-  content:"The Internet Bedroom";
-  text-shadow: 10px 25px 20px #FFFF66;
   position: absolute;
   top;10px;
   left:10px;
