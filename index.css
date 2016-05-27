@@ -12,6 +12,7 @@ body {
   -moz-animation: bgAnime 60s infinite linear;
   -webkit-animation: bgAnime 60s infinite linear;
   animation: bgAnime 60s infinite linear;
+  word-wrap: break-word;
 }
 
 @-webkit-keyframes bgAnime {
@@ -73,4 +74,14 @@ h5 {
 p {
   letter-spacing: 0.2em;
   word-spacing: 0.4em;
+}
+img.idpw
+{
+  width: 100%;
+  max-width: 1700px;
+}
+img.ycam
+{
+  width: 100%;
+  max-width: 1303px;
 }
