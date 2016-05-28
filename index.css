@@ -112,6 +112,20 @@ img.ycam
   animation: sun-rise 60s infinite linear;
 }
 
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .moon, .sun{
+    font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .moon, .sun{
+    font-size: 100px;
+  }
+}
+
 /* define animations */
 
 @-webkit-keyframes bgAnime {
