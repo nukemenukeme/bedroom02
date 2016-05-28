@@ -6,90 +6,260 @@ body {
   text-shadow: 20px 5px 20px #66FF99;
   font-weight: bold;
   font-family: serif;
-  font-size: 100px;
-  line-height: 1em;
-  letter-spacing: -0.2em;
   -moz-animation: bgAnime 60s infinite linear;
   -webkit-animation: bgAnime 60s infinite linear;
   animation: bgAnime 60s infinite linear;
   word-wrap: break-word;
-}
+  font-size: 18px;
 
-@media screen and (max-width:1000px)
-{
-  body
-  {
-    font-size:50px;
-  }
-}
-
-@-webkit-keyframes bgAnime {
-  0% {
-    background-color: #cccccc;
-  }
-  25% {
-    background-color: #FFFF66;
-  }
-  50% {
-    background-color: #FF6633;
-  }
-  75% {
-    background-color: #000000;
-  }
-  100% {
-    background-color: #cccccc;
-  }
-}
-@keyframes bgAnime {
-  0% {
-    background-color: #cccccc;
-  }
-  25% {
-    background-color: #FFFF66;
-  }
-  50% {
-    background-color: #FF6633;
-  }
-  75% {
-    background-color: #000000;
-  }
-  100% {
-    background-color: #cccccc;
-  }
+  box-sizing: border-box;
+  padding: 15px;
 }
 
 h1:before {
   content:"title";
   font-size:10px;
-  letter-spacing: 1em
+  letter-spacing: 0.95em
 }
 h2:before {
   content:"date";
   font-size:10px;
-  letter-spacing: 1em;
+  letter-spacing: 0.95em;
 }
 h4 {
   letter-spacing: 0.2em;
 }
-h5:before {
-  content:"supported";
-  font-size:10px;
-  letter-spacing: 1em;
-}
-h5 {
-  letter-spacing: 0.2em;
-}
-p {
-  letter-spacing: 0.2em;
-  word-spacing: 0.4em;
-}
 img.idpw
 {
   width: 100%;
-  max-width: 1700px;
+  max-width: 300px;
 }
 img.ycam
 {
   width: 100%;
-  max-width: 1303px;
+  max-width: 300px;
+}
+
+/* GSs: font size 調整 */
+
+.hd-level-1 {
+  font-size: 100px;
+  line-height: 1em;
+  letter-spacing: -0.09em;
+}
+
+.hd-level-2 {
+  font-size: 60px;
+  line-height: 1em;
+  letter-spacing: -0.09em;
+}
+
+.hd-level-3 {
+  font-size: 40px;
+  line-height: 1em;
+  letter-spacing: -0.09em;
+}
+
+@media screen and (max-width: 1000px) {
+  .hd-level-1 {
+    font-size: 50px;
+  }
+
+  .hd-level-2 {
+    font-size: 30px;
+  }
+
+  .hd-level-3 {
+    font-size: 20px;
+  }
+}
+
+/* GSs: Layout 調整 */
+.docblock {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+/* GSs: layer 調整 */
+.front{
+  z-index: 1;
+  position: relative;
+}
+
+.moon{
+  font-size: 200px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  -moz-animation: moon-rise 60s infinite linear;
+  -webkit-animation: moon-rise 60s infinite linear;
+  animation: moon-rise 60s infinite linear;
+}
+
+.sun{
+  font-size: 200px;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  -moz-animation: sun-rise 60s infinite linear;
+  -webkit-animation: sun-rise 60s infinite linear;
+  animation: sun-rise 60s infinite linear;
+}
+
+/* define animations */
+
+@-webkit-keyframes bgAnime {
+  0% {
+    background-color: #FFFF66;
+  }
+  25% {
+    background-color: #FF6633;
+  }
+  50% {
+    background-color: #000000;
+  }
+  75% {
+    background-color: #FF6633;
+  }
+  100% {
+    background-color: #FFFF66;
+  }
+}
+@keyframes bgAnime {
+  0% {
+    background-color: #FFFF66;
+  }
+  25% {
+    background-color: #FF6633;
+  }
+  50% {
+    background-color: #000000;
+  }
+  75% {
+    background-color: #FF6633;
+  }
+  100% {
+    background-color: #FFFF66;
+  }
+}
+
+
+
+@-webkit-keyframes moon-rise {
+  0% {
+    left: 0;
+    top: 100%;
+    margin-left:0;
+  }
+  25% {
+    left: 100%;
+    top: 50%;
+    margin-left:-1em;
+  }
+  50% {
+    left: 0;
+    top: 0;
+    margin-left:0;
+  }
+  75% {
+    left: 100%;
+    top: 50%;
+    margin-left:-1em;
+  }
+  100% {
+    left: 0;
+    top: 100%;
+    margin-left:0;
+  }
+}
+
+@keyframes moon-rise {
+  0% {
+    left: 0;
+    top: 100%;
+    margin-left:0;
+  }
+  25% {
+    left: 100%;
+    top: 50%;
+    margin-left:-1em;
+  }
+  50% {
+    left: 0;
+    top: 0;
+    margin-left:0;
+  }
+  75% {
+    left: 100%;
+    top: 50%;
+    margin-left:-1em;
+  }
+  100% {
+    left: 0;
+    top: 100%;
+    margin-left:0;
+  }
+}
+
+
+@-webkit-keyframes sun-rise {
+  0% {
+    left: 100%;
+    margin-left:-1em;
+    top: 0;
+  }
+  25% {
+    left: 0;
+    margin-left:0;
+    top: 50%;
+  }
+  50% {
+    left: 100%;
+    top: 100%;
+    margin-left:-1em;
+  }
+  75% {
+    left: 0;
+    top: 50%;
+    margin-left:0;
+  }
+  100% {
+    left: 100%;
+    top: 0;
+    margin-left:-1em;
+  }
+}
+
+@keyframes sun-rise {
+  0% {
+    left: 100%;
+    margin-left:-1em;
+    top: 0;
+  }
+  25% {
+    left: 0;
+    margin-left:0;
+    top: 50%;
+  }
+  50% {
+    left: 100%;
+    top: 100%;
+    margin-left:-1em;
+  }
+  75% {
+    left: 0;
+    top: 50%;
+    margin-left:0;
+  }
+  100% {
+    left: 100%;
+    top: 0;
+    margin-left:-1em;
+  }
 }
