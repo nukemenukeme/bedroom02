@@ -99,6 +99,9 @@ img.ycam
   -moz-animation: moon-rise 60s infinite linear;
   -webkit-animation: moon-rise 60s infinite linear;
   animation: moon-rise 60s infinite linear;
+  animation-timing-function:ease-in-out;
+  -webkit-animation-timing-function:ease-in-out;
+  -moz-animation-timing-function:ease-in-out;
 }
 
 .sun{
@@ -110,6 +113,9 @@ img.ycam
   -moz-animation: sun-rise 60s infinite linear;
   -webkit-animation: sun-rise 60s infinite linear;
   animation: sun-rise 60s infinite linear;
+  animation-timing-function:ease-in-out;
+  -webkit-animation-timing-function:ease-in-out;
+  -moz-animation-timing-function:ease-in-out;
 }
 
 @media
