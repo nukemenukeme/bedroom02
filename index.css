@@ -117,6 +117,9 @@ img.ycam
   -webkit-animation-timing-function:ease-in-out;
   -moz-animation-timing-function:ease-in-out;
 }
+.title-date,.title-past,.title-presented {
+  display:none;
+}
 
 @media
 (-webkit-min-device-pixel-ratio: 2),
