@@ -16,16 +16,6 @@ body {
   padding: 15px;
 }
 
-h1:before {
-  content:"title";
-  font-size:10px;
-  letter-spacing: 0.95em
-}
-h2:before {
-  content:"date";
-  font-size:10px;
-  letter-spacing: 0.95em;
-}
 h4 {
   letter-spacing: 0.2em;
 }
