@@ -78,6 +78,30 @@ body {
   background: #000;
 }
 
+.howto{
+  list-style-type: hiragana-iroha;
+}
+
+.tips{
+  list-style-type: katakana-iroha;
+}
+
+.icon{
+  font-style: normal;
+  font-family: Wingdings;
+}
+
+.clock{
+  font-size: 100px;
+  margin: 0;
+}
+
+.title-main{
+  margin-bottom: 30px;
+}
+.date-time{
+  margin-top:  20px;
+}
 
 /* responsive
 -------------------------------------- */

@@ -13,11 +13,11 @@
 </head>
 <body>
 <div class="front">
-  <h1 class="hd-level-1">
+  <h1 class="hd-level-1 title-main">
     The Internet Bedroom
   </h1>
-  <h2 class="title-date">date</h2>
-  <p class="hd-level-2">
+  <h2 class="clock"><i class="js-icon-clock icon">&#194;</i></h2>
+  <p class="hd-level-2 date-time">
     23rd - 24th June, 2016<br>
     IST 10 am ~ 10 am<br>
     GMT 08 am ~ 08 am<br>
@@ -33,7 +33,8 @@
     <h3 class="title-section">Our bedroom is coming back to the internet!</h3>
     <p class="text-body">
       For the second time,
-      it will take place in cooperation with <a href="http://www.printscreenfestival.com/" target="_blank" class="text-body--link">Print Screen
+      it will take place in cooperation with <a href="http://www.printscreenfestival.com/" target="_blank"
+                                                class="text-body--link">Print Screen
       Festival</a>
       which is held in Holon, Israel -- just outside of Tel Aviv.
       We might be sleeping beside people who sleep at an international media arts festival venue,
@@ -45,8 +46,10 @@
   <section class="section-a">
     <h3 class="title-section">Place</h3>
     <p class="text-body">
-      The internet (@Google Hangouts. Check "<a href="#howtojoin" class="text-body--link">How to join?</a>" section below.)
-      URL will be announced here or <a href="https://www.facebook.com/events/643335699176111/" target="_blank" class="text-body--link">the
+      The internet (@Google Hangouts. Check "<a href="#howtojoin" class="text-body--link">How to join?</a>" section
+      below.)
+      URL will be announced here or <a href="https://www.facebook.com/events/643335699176111/" target="_blank"
+                                       class="text-body--link">the
       Facebook page</a>
       on the day of the event.
     </p>
@@ -63,14 +66,14 @@
 
   <section class="section-a">
     <h3 id="howtojoin" class="title-section">How to join?</h3>
-    <ol>
+    <ol class="howto">
       <li>Prepare for sleeping, wear pajamas and relax.</li>
       <li>Bring your laptop or smartphone to your bedroom and login to “The Internet Bedroom” on the Google Hangouts.
       </li>
       <li>Set the camera towards you. Please put on a dim light to be visible if possible.</li>
       <li>Let’s hangout in your dream...</li>
     </ol>
-    <ul>
+    <ul class="tips">
       <li>Join/logout the room any time you want.</li>
       <li>Logout when you become active and aware.</li>
       <li>Please note that the Internet Bedroom will be recorded and live broadcasted at the festival venue.</li>
@@ -82,7 +85,8 @@
     <p class="text-body">
       The internet is like a roaring noon 24 hours a day. Why don’t we change a chatroom into a bedroom for our sleep?
       <br/>
-      <a href="https://vimeo.com/4880378" target="_blank" class="text-body--link">Andy Warhol</a> freed audiences from the act of watching a
+      <a href="https://vimeo.com/4880378" target="_blank" class="text-body--link">Andy Warhol</a> freed audiences from
+      the act of watching a
       movie by screening actors’ sleep. Laurie Anderson connected
       the world through her subconscious by sleeping in public spaces. <a
             href="http://motherboard.vice.com/read/i-watched-this-guys-dad-sleep-in-japan-from-a-tent-at-an-nyc-internet-market"
@@ -103,14 +107,19 @@
     <div class="credits">
       <h5 class="title-section">IDPW</h5>
       <p>
-        <a href="http://idpw.org/" target="_blank"><img class="idpw credits--logo" src="images/logo-idpw-black.png" alt=""/></a>
+        <a href="http://idpw.org/" target="_blank"><img class="idpw credits--logo" src="images/logo-idpw-black.png"
+                                                        alt=""/></a>
       </p>
     </div>
 
     <div class="credits">
-    <h5 class="title-section">Printscreen festival</h5>
+      <h5 class="title-section">Printscreen festival</h5>
       <p>
-        <a href="http://www.printscreenfestival.com/" target="_blank"><img class="credits--logo" src="images/logo-psf-000001.jpg" alt=""/><br/><img class="credits--logo" src="images/logo-psf-000002.jpg" alt=""/></a>
+        <a href="http://www.printscreenfestival.com/" target="_blank"><img class="credits--logo"
+                                                                           src="images/logo-psf-000001.jpg"
+                                                                           alt=""/><br/><img class="credits--logo"
+                                                                                             src="images/logo-psf-000002.jpg"
+                                                                                             alt=""/></a>
       </p>
     </div>
 
@@ -119,7 +128,8 @@
     <div class="credits">
       <h5 class="title-section">YCAM [Yamaguchi Center for Art and Media] </h5>
       <p>
-        <a href="http://ycam.jp/" target="_blank"><img class="ycam credits--logo" src="images/logo-ycam.jpg" alt=""/></a>
+        <a href="http://ycam.jp/" target="_blank"><img class="ycam credits--logo" src="images/logo-ycam.jpg"
+                                                       alt=""/></a>
       </p>
     </div>
   </section>
@@ -127,5 +137,39 @@
 </div>
 <span class="moon">&#x1F31B;</span>
 <span class="sun">&#x1F31E;</span>
+
+<script type="text/javascript">
+  function miniClock() {
+
+//    var startCode = 128347;
+//    var endCode = 128336;
+
+    var startCode = 194;
+    var endCode = 183;
+
+    function update(obj) {
+      console.log(obj);
+      obj.el.innerHTML = "&#" + obj.i + ";";
+      if (obj.i <= endCode) {
+        obj.i = startCode;
+      } else {
+        obj.i -= 1;
+      }
+    }
+
+    var targets = document.querySelectorAll(".js-icon-clock");
+    for (var i = 0; i < targets.length; i += 1) {
+
+      var o = {
+        el: targets[i],
+        i: 194
+      };
+      setInterval(function(obj){
+        update(obj);
+      }, 1000/12, o);
+    }
+  }
+  miniClock()
+</script>
 </body>
 </html>
