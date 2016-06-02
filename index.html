@@ -16,7 +16,10 @@
   <h1 class="hd-level-1 title-main">
     The Internet Bedroom
   </h1>
-  <h2 class="clock"><i class="js-icon-clock icon">&#194;</i></h2>
+  <h2 class="hd-level-3 title-sub">
+    Let's have a sleepover on the internet!<br><br>
+  </h2>
+  <h3 class="clock"><i class="js-icon-clock icon">&#194;</i></h3>
   <p class="hd-level-2 date-time">
     23rd - 24th June, 2016<br>
     IST 10 am ~ 10 am<br>
@@ -24,13 +27,9 @@
     EST 03 am ~ 03 am<br>
     JST 17 pm ~ 17 pm<br>
   </p>
-  <h3 class="hd-level-3">
-    Let's have a sleepover on the internet!<br><br>
-    二回目は、イスラエルでやるよ！<br>
-  </h3>
 
   <section class="section-a">
-    <h3 class="title-section">Our bedroom is coming back to the internet!</h3>
+    <h3 class="hd-level-3">Our bedroom is coming back to the internet!</h3>
     <p class="text-body">
       For the second time,
       it will take place in cooperation with <a href="http://www.printscreenfestival.com/" target="_blank"
@@ -137,39 +136,7 @@
 </div>
 <span class="moon">&#x1F31B;</span>
 <span class="sun">&#x1F31E;</span>
-
-<script type="text/javascript">
-  function miniClock() {
-
-//    var startCode = 128347;
-//    var endCode = 128336;
-
-    var startCode = 194;
-    var endCode = 183;
-
-    function update(obj) {
-      console.log(obj);
-      obj.el.innerHTML = "&#" + obj.i + ";";
-      if (obj.i <= endCode) {
-        obj.i = startCode;
-      } else {
-        obj.i -= 1;
-      }
-    }
-
-    var targets = document.querySelectorAll(".js-icon-clock");
-    for (var i = 0; i < targets.length; i += 1) {
-
-      var o = {
-        el: targets[i],
-        i: 194
-      };
-      setInterval(function(obj){
-        update(obj);
-      }, 1000/12, o);
-    }
-  }
-  miniClock()
-</script>
+<script type="text/javascript" src="js/fontdetect.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

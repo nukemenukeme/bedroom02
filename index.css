@@ -94,11 +94,17 @@ body {
 .clock{
   font-size: 100px;
   margin: 0;
+  line-height:1em;
 }
 
 .title-main{
   margin-bottom: 30px;
 }
+
+.title-sub{
+  margin-bottom: 0;
+}
+
 .date-time{
   margin-top:  20px;
 }
