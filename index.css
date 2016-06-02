@@ -16,21 +16,6 @@ body {
   padding: 15px;
 }
 
-h4 {
-  letter-spacing: 0.2em;
-}
-img.idpw
-{
-  width: 100%;
-  max-width: 300px;
-}
-img.ycam
-{
-  width: 100%;
-  max-width: 300px;
-}
-
-/* GSs: font size 調整 */
 
 .hd-level-1 {
   font-size: 100px;
@@ -50,9 +35,78 @@ img.ycam
   letter-spacing: -0.09em;
 }
 
+
+.section-a {
+  max-width: 800px;
+  margin: 0 auto 8em auto;
+  line-height: 2em;
+  letter-spacing: 0.05em;
+  text-align: left;
+
+}
+
+/*
+  section title
+*/
+
+.title-section {
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+.credits{
+  text-align: center;
+  margin-bottom: 4em;
+}
+.credits--logo
+{
+  width: 100%;
+  max-width: 360px;
+}
+
+.text-body{
+}
+
+.text-body--link{
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+}
+
+.text-body--link:hover{
+  color: #fff;
+  border-bottom: 2px solid #000;
+  background: #000;
+}
+
+
+/* responsive
+-------------------------------------- */
+
 @media screen and (max-width: 1000px) {
   .hd-level-1 {
     font-size: 50px;
+  }
+
+  .hd-level-2 {
+    font-size: 40px;
+  }
+
+  .hd-level-3 {
+    font-size: 20px;
+  }
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+  body{
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .hd-level-1 {
+    font-size: 30px;
   }
 
   .hd-level-2 {
@@ -62,19 +116,18 @@ img.ycam
   .hd-level-3 {
     font-size: 20px;
   }
+
+  .section-a {
+    margin: 0 auto 4em auto;
+    line-height: 1.5em;
+  }
 }
 
-/* GSs: Layout 調整 */
-.docblock {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 2em;
-  letter-spacing: 0.05em;
-  text-align: left;
-}
 
-/* GSs: layer 調整 */
+
+/* animations
+-------------------------------------- */
+
 .front{
   z-index: 1;
   position: relative;
@@ -106,9 +159,6 @@ img.ycam
   animation-timing-function:ease-in-out;
   -webkit-animation-timing-function:ease-in-out;
   -moz-animation-timing-function:ease-in-out;
-}
-.title-date,.title-past,.title-presented {
-  display:none;
 }
 
 @media
@@ -276,3 +326,4 @@ img.ycam
     margin-left:-1em;
   }
 }
+
