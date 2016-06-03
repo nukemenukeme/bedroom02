@@ -89,7 +89,7 @@ body {
 
 .icon{
   font-style: normal;
-  font-family: Wingdings, "Wingdings", wingdings, "wingdings";
+  font-family: Wingdings, "Wingdings", wingdings, "wingdings", 'Apple カラー絵文字','Apple Color Emoji','Gecko Emoji','Noto Emoji','Noto Color Emoji','Segoe UI Emoji',OpenSansEmoji,EmojiSymbols,DFPEmoji,'Segoe UI Symbol 8','Segoe UI Symbol','Noto Sans Symbols',Symbola,Quivira,'和田研中丸ゴシック2004絵文字',WadaLabChuMaruGo2004Emoji,'和田研細丸ゴシック2004絵文字',WadaLabMaruGo2004Emoji,'DejaVu Sans','VL Pゴシック',YOzFont,'Nishiki-teki','Android Emoji','Sun-ExtA',symbols,places,people,objects,nature,fantasy;;
 }
 
 .clock{
@@ -112,11 +112,12 @@ body {
 
 body.os-win .moon,
 body.os-win .sun{
+  font-family: Wingdings, "Wingdings", wingdings, "wingdings", 'Apple カラー絵文字','Apple Color Emoji','Gecko Emoji','Noto Emoji','Noto Color Emoji','Segoe UI Emoji',OpenSansEmoji,EmojiSymbols,DFPEmoji,'Segoe UI Symbol 8','Segoe UI Symbol','Noto Sans Symbols',Symbola,Quivira,'和田研中丸ゴシック2004絵文字',WadaLabChuMaruGo2004Emoji,'和田研細丸ゴシック2004絵文字',WadaLabMaruGo2004Emoji,'DejaVu Sans','VL Pゴシック',YOzFont,'Nishiki-teki','Android Emoji','Sun-ExtA',symbols,places,people,objects,nature,fantasy;;
 }
 
 body.os-win .moon,
 body.os-win .sun{
-  font-family: sans-serif;
+  font-family: Wingdings, "Wingdings", wingdings, "wingdings", 'Apple カラー絵文字','Apple Color Emoji','Gecko Emoji','Noto Emoji','Noto Color Emoji','Segoe UI Emoji',OpenSansEmoji,EmojiSymbols,DFPEmoji,'Segoe UI Symbol 8','Segoe UI Symbol','Noto Sans Symbols',Symbola,Quivira,'和田研中丸ゴシック2004絵文字',WadaLabChuMaruGo2004Emoji,'和田研細丸ゴシック2004絵文字',WadaLabMaruGo2004Emoji,'DejaVu Sans','VL Pゴシック',YOzFont,'Nishiki-teki','Android Emoji','Sun-ExtA',symbols,places,people,objects,nature,fantasy;;
 }
 
 body.os-other .icon{
