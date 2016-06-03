@@ -89,7 +89,7 @@ body {
 
 .icon{
   font-style: normal;
-  font-family: Wingdings;
+  font-family: Wingdings, "Wingdings", wingdings, "wingdings";
 }
 
 .clock{
