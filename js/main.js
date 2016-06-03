@@ -37,7 +37,7 @@ window.onload = function () {
   var moon = document.querySelectorAll(".moon")[0];
   if (isWin) {
     document.body.classList.add("os-win");
-    sun.innerHTML = "&#x52";
+    sun.innerHTML = "&#x1F31E";
     moon.innerHTML = "&#x1F31B";
   }else if(isMac){
     document.body.classList.add("os-mac");
@@ -50,11 +50,7 @@ window.onload = function () {
     moon.innerHTML = "&#x1F31B";
   }
 
-  if (isWin && hasFont === true) {
-    new miniClock(194, 183);
-  } else {
-    new miniClock(128347, 128336);
-  }
+  new miniClock(128347, 128336);
 
 };
 
