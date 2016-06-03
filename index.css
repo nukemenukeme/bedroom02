@@ -17,6 +17,7 @@ body {
 }
 
 
+
 .hd-level-1 {
   font-size: 100px;
   line-height: 1em;
@@ -109,6 +110,22 @@ body {
   margin-top:  20px;
 }
 
+body.os-win .moon,
+body.os-win .sun{
+}
+
+body.os-win .moon,
+body.os-win .sun{
+  font-family: sans-serif;
+}
+
+body.os-other .icon{
+  /* wingdings も emoji もダメな場合は
+  表示を消す予定。けど、いったんこのままにします。*/
+  /*display: none;*/
+}
+
+
 /* responsive
 -------------------------------------- */
 
@@ -164,6 +181,7 @@ body {
 }
 
 .moon{
+  font-family: sans-serif;
   font-size: 200px;
   position: fixed;
   z-index: 0;
@@ -178,6 +196,7 @@ body {
 }
 
 .sun{
+  font-family: sans-serif;
   font-size: 200px;
   position: fixed;
   z-index: 0;
