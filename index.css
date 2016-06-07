@@ -34,6 +34,7 @@ body {
   font-size: 40px;
   line-height: 1em;
   letter-spacing: -0.09em;
+  text-align: center;
 }
 
 
@@ -43,7 +44,6 @@ body {
   line-height: 2em;
   letter-spacing: 0.05em;
   text-align: left;
-
 }
 
 /*
