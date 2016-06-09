@@ -126,6 +126,25 @@ body.os-other .icon{
   /*display: none;*/
 }
 
+.fb-link-box{
+  text-align: center;
+}
+
+.fb-link-box--link{
+  padding: 1em;
+  background: #000;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid #000;
+}
+
+.fb-link-box--link:hover{
+  border: 2px solid #000;
+  background: transparent;
+  color: #000;
+}
 
 /* responsive
 -------------------------------------- */
