@@ -1,5 +1,5 @@
-var eventStartDate = new Date(Date.UTC(2016, 5, 23, 7));
-var eventEndDate = new Date(Date.UTC(2016, 5, 24, 7));
+var eventStartDate = new Date(Date.UTC(2016, 5, 23, 8));
+var eventEndDate = new Date(Date.UTC(2016, 5, 24, 8));
 
 var calcLcalDate = function (utcTime) {
     var date = new Date();
