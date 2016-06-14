@@ -109,6 +109,9 @@ body {
 .date-time{
   margin-top:  20px;
 }
+.date-time-mini{
+}
+
 
 body.os-win .moon,
 body.os-win .sun{
