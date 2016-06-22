@@ -1,12 +1,13 @@
 var ibCountdown = function (currentUnixTime) {
 
-  var loadedServerDate = new Date(currentUnixTime);
+  var loadedServerDate = new Date();
+  loadedServerDate.setTime(currentUnixTime);
   var loadedLocalDate = Date.now();
 
 
 
-  var eventStartDate = new Date(Date.UTC(2016, 5, 23, 8));
-  var eventEndDate = new Date(Date.UTC(2016, 5, 24, 8));
+  var eventStartDate = new Date(Date.UTC(2016, 5, 23, 7));
+  var eventEndDate = new Date(Date.UTC(2016, 5, 24, 7));
 
   var calcLcalDate = function (utcTime) {
     var date = new Date();
@@ -72,7 +73,7 @@ $(function () {
     url       : "apps/unixtime.php",
     type      : "get",
     dataType  : "json",
-    success   : function (response) {  // ←これもコールバック
+    success   : function (response) {
       if (response) {
         ibCountdown(response * 1000);
       }

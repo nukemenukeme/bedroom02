@@ -53,20 +53,23 @@
     The Internet Bedroom
   </h1>
   <h2 class="hd-level-3 title-sub">
-    Let's have a sleepover on the internet <i>&#128164;</i><br><br>
+    Let's have a sleepover on the internet <i>&#128164;</i><br>LIVE NOW<br>
   </h2>
 
   <section class="videos-box clearfix" >
     <!-- bedroom 1 -->
-    <iframe class="js-live-video videos-box__item" width="560" height="315" src="https://www.youtube.com/embed/zQhUAercRFI" frameborder="0" allowfullscreen></iframe>
+    <iframe class="js-live-video videos-box__item" width="560" height="315" src="https://www.youtube.com/embed/zQhUAercRFI?autoplay=1" frameborder="0" allowfullscreen></iframe>
     <!-- bedroom 2 -->
-    <iframe class="js-live-video videos-box__item" width="560" height="315" src="https://www.youtube.com/embed/8xk_C7BKcT4" frameborder="0" allowfullscreen></iframe>
+    <iframe class="js-live-video videos-box__item" width="560" height="315" src="https://www.youtube.com/embed/8xk_C7BKcT4?autoplay=1" frameborder="0" allowfullscreen></iframe>
     <!-- bedroom 3 -->
-    <iframe class="js-live-video videos-box__item" width="560" height="315" src="https://www.youtube.com/embed/v0oVScWD43o" frameborder="0" allowfullscreen></iframe>
+    <iframe class="js-live-video videos-box__item" width="560" height="315" src="https://www.youtube.com/embed/v0oVScWD43o?autoplay=1" frameborder="0" allowfullscreen></iframe>
   </section>
 
   <section class="section-a">
-    <h3 class="hd-level-3">Our bedroom is live now on the internet!!!</h3>
+    <div style="text-align:center;margin:30px;">
+    <!-- Our bedroom is live now on the internet!!! -->
+    <div style="margin:50px;"><span style="font-size:80px;"><a href="https://docs.google.com/document/d/1OU0Mfkt-UXCcnxxKH22eYqHLnpDo_n-CqV2mlBmfJ88/edit?usp=sharing" target="book" style="text-decoration:none;">📓</a></span><br>guest book</div>
+    </div>
   </section>
 
   <div class="clock"><i class="js-icon-clock icon">　</i></div>
@@ -146,6 +149,13 @@
       <li>Logout when you become active and aware.</li>
       <li>Please note that the Internet Bedroom will be recorded and live broadcasted at the festival venue.</li>
     </ul>
+    <div style="text-align:center;margin:30px;">
+    <a class="fb-link-box--link" href="https://talkgadget.google.com/hangouts/_/lxx25nrextifkxkgolgbkdbbdua" target="room" onclick="enterHook()"> Enter room 1 </a>
+    <span style="font-size:40px;">🙊</span>
+    <a class="fb-link-box--link" href="https://talkgadget.google.com/hangouts/_/y34hax2zf5ehgshp74h4bypm5qa" target="room" onclick="enterHook()"> Enter room 2 </a>
+    <span style="font-size:40px;">🙊</span>
+    <a class="fb-link-box--link" href="https://talkgadget.google.com/hangouts/_/j2ltdipurczvbr56sflgpg3kaqa" target="room" onclick="enterHook()"> Enter room 3 </a>
+    </div>
   </section>
 
   <section class="section-a">
@@ -228,6 +238,13 @@
       return results;
     }
   });
+
+  function enterHook() {
+    var r = window.confirm("Did you read \"Sleeper’s rule\" and \"How to Join?\" section and agreed with it?\nPress OK to agree and enter the bedroom.");
+    if (!r) {
+      event.preventDefault();
+    }
+  }
 </script>
 
 </body>
