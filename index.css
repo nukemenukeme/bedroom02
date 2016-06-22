@@ -16,7 +16,11 @@ body {
   padding: 15px;
 }
 
-
+.clearfix:after {
+  content:" ";
+  display:block;
+  clear:both;
+}
 
 .hd-level-1 {
   font-size: 100px;
@@ -150,7 +154,7 @@ body.os-other .icon{
 }
 
 /* responsive
--------------------------------------- */
+=========================== */
 
 @media screen and (max-width: 1000px) {
   .hd-level-1 {
@@ -195,9 +199,50 @@ body.os-other .icon{
 
 
 
-/* animations
--------------------------------------- */
+/* videos
+=========================== */
+.videos-box{
+  width: 100%;
+}
 
+.videos-box__item {
+  width: 33.33333%;
+  display: block;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1600px) {
+  .videos-box__item {
+    width: 50%;
+    display: block;
+    float: left;
+  }
+
+  .videos-box__item:nth-child(3n) {
+    clear: both;
+    float: none;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .videos-box__item {
+    width: 100%;
+    clear: both;
+    float: none;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+
+/* animations
+=========================== */
 .front{
   z-index: 1;
   position: relative;
