@@ -38,7 +38,11 @@ var ibCountdown = function (currentUnixTime) {
 
   var countDown = function () {
     var r1 = getTimeRemaining(eventStartDate);
-    document.getElementById('remain').innerHTML = r1.days + " Days " + r1.hours + " Hours " + r1.minutes + " Min " + r1.seconds + " Sec";
+
+    var elRemain = document.getElementById('remain');
+    if(elRemain){
+      document.getElementById('remain').innerHTML = r1.days + " Days " + r1.hours + " Hours " + r1.minutes + " Min " + r1.seconds + " Sec";
+    }
 
     var r2 = getTimeRemaining(eventEndDate);
     $('.remain-02').html(r2.days + " Days " + r2.hours + " Hours " + r2.minutes + " Min " + r2.seconds + " Sec");

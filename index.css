@@ -206,7 +206,7 @@ body.os-other .icon {
   width: 100%;
 }
 
-.videos-box__item {
+.videos-box .videos-box__item {
   width: 33.33333%;
   display: block;
   float: left;
@@ -214,23 +214,40 @@ body.os-other .icon {
   box-sizing: border-box;
 }
 
+
+.videos-box_2col .videos-box__item {
+  width: 50%;
+}
+
+.videos-box_1col .videos-box__item {
+  width: 50%;
+  float: none;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1600px) {
-  .videos-box__item {
+  .videos-box .videos-box__item {
     width: 50%;
     display: block;
     float: left;
   }
 
-  .videos-box__item:nth-child(3n) {
+  .videos-box .videos-box__item:nth-child(3n) {
     clear: both;
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
+
+  .videos-box_1col .videos-box__item {
+    width: 50%;
+    float: none;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 800px) {
-  .videos-box__item {
+  .videos-box .videos-box__item {
     width: 100%;
     clear: both;
     float: none;
