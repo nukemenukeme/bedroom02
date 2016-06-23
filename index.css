@@ -17,9 +17,9 @@ body {
 }
 
 .clearfix:after {
-  content:" ";
-  display:block;
-  clear:both;
+  content: " ";
+  display: block;
+  clear: both;
 }
 
 .hd-level-1 {
@@ -41,13 +41,16 @@ body {
   text-align: center;
 }
 
-
 .section-a {
   max-width: 800px;
   margin: 0 auto 4em auto;
   line-height: 2em;
   letter-spacing: 0.05em;
   text-align: left;
+}
+
+.section-a__tight {
+  margin-bottom: 2em;
 }
 
 /*
@@ -58,86 +61,87 @@ body {
   text-align: center;
   letter-spacing: 0.2em;
 }
-.credits{
+
+.credits {
   text-align: center;
   margin-bottom: 4em;
 }
-.credits--logo
-{
+
+.credits--logo {
   width: 100%;
   max-width: 360px;
 }
 
-.text-body{
+.text-body {
 }
 
-.text-body--link{
+.text-body--link {
   color: #000;
   text-decoration: none;
   border-bottom: 2px solid #000;
 }
 
-.text-body--link:hover{
+.text-body--link:hover {
   color: #fff;
   border-bottom: 2px solid #000;
   background: #000;
 }
 
-.howto{
+.howto {
   /*list-style-type: hiragana-iroha;*/
 }
 
-.tips{
+.tips {
   /*list-style-type: katakana-iroha;*/
 }
 
-.icon{
+.icon {
   font-style: normal;
-  font-family: 'Apple カラー絵文字','Apple Color Emoji','Gecko Emoji','Noto Emoji','Noto Color Emoji','Segoe UI Emoji',OpenSansEmoji,EmojiSymbols,DFPEmoji,'Segoe UI Symbol 8','Segoe UI Symbol','Noto Sans Symbols',Symbola,Quivira,'和田研中丸ゴシック2004絵文字',WadaLabChuMaruGo2004Emoji,'和田研細丸ゴシック2004絵文字',WadaLabMaruGo2004Emoji,'DejaVu Sans','VL Pゴシック',YOzFont,'Nishiki-teki','Android Emoji','Sun-ExtA',symbols,places,people,objects,nature,fantasy;;
+  font-family: 'Apple カラー絵文字', 'Apple Color Emoji', 'Gecko Emoji', 'Noto Emoji', 'Noto Color Emoji', 'Segoe UI Emoji', OpenSansEmoji, EmojiSymbols, DFPEmoji, 'Segoe UI Symbol 8', 'Segoe UI Symbol', 'Noto Sans Symbols', Symbola, Quivira, '和田研中丸ゴシック2004絵文字', WadaLabChuMaruGo2004Emoji, '和田研細丸ゴシック2004絵文字', WadaLabMaruGo2004Emoji, 'DejaVu Sans', 'VL Pゴシック', YOzFont, 'Nishiki-teki', 'Android Emoji', 'Sun-ExtA', symbols, places, people, objects, nature, fantasy;;
 }
 
-.clock{
+.clock {
   font-size: 100px;
   margin: 0;
-  line-height:1em;
+  line-height: 1em;
 }
 
-.title-main{
+.title-main {
   margin-bottom: 30px;
 }
 
-.title-sub{
+.title-sub {
   margin-bottom: 0;
 }
 
-.date-time{
-  margin-top:  20px;
-}
-.date-time-mini{
+.date-time {
+  margin-top: 20px;
 }
 
-
-body.os-win .moon,
-body.os-win .sun{
-  font-family:  'Apple カラー絵文字','Apple Color Emoji','Gecko Emoji','Noto Emoji','Noto Color Emoji','Segoe UI Emoji',OpenSansEmoji,EmojiSymbols,DFPEmoji,'Segoe UI Symbol 8','Segoe UI Symbol','Noto Sans Symbols',Symbola,Quivira,'和田研中丸ゴシック2004絵文字',WadaLabChuMaruGo2004Emoji,'和田研細丸ゴシック2004絵文字',WadaLabMaruGo2004Emoji,'DejaVu Sans','VL Pゴシック',YOzFont,'Nishiki-teki','Android Emoji','Sun-ExtA',symbols,places,people,objects,nature,fantasy;;
+.date-time-mini {
 }
 
 body.os-win .moon,
-body.os-win .sun{
-  font-family: 'Apple カラー絵文字','Apple Color Emoji','Gecko Emoji','Noto Emoji','Noto Color Emoji','Segoe UI Emoji',OpenSansEmoji,EmojiSymbols,DFPEmoji,'Segoe UI Symbol 8','Segoe UI Symbol','Noto Sans Symbols',Symbola,Quivira,'和田研中丸ゴシック2004絵文字',WadaLabChuMaruGo2004Emoji,'和田研細丸ゴシック2004絵文字',WadaLabMaruGo2004Emoji,'DejaVu Sans','VL Pゴシック',YOzFont,'Nishiki-teki','Android Emoji','Sun-ExtA',symbols,places,people,objects,nature,fantasy;;
+body.os-win .sun {
+  font-family: 'Apple カラー絵文字', 'Apple Color Emoji', 'Gecko Emoji', 'Noto Emoji', 'Noto Color Emoji', 'Segoe UI Emoji', OpenSansEmoji, EmojiSymbols, DFPEmoji, 'Segoe UI Symbol 8', 'Segoe UI Symbol', 'Noto Sans Symbols', Symbola, Quivira, '和田研中丸ゴシック2004絵文字', WadaLabChuMaruGo2004Emoji, '和田研細丸ゴシック2004絵文字', WadaLabMaruGo2004Emoji, 'DejaVu Sans', 'VL Pゴシック', YOzFont, 'Nishiki-teki', 'Android Emoji', 'Sun-ExtA', symbols, places, people, objects, nature, fantasy;;
 }
 
-body.os-other .icon{
+body.os-win .moon,
+body.os-win .sun {
+  font-family: 'Apple カラー絵文字', 'Apple Color Emoji', 'Gecko Emoji', 'Noto Emoji', 'Noto Color Emoji', 'Segoe UI Emoji', OpenSansEmoji, EmojiSymbols, DFPEmoji, 'Segoe UI Symbol 8', 'Segoe UI Symbol', 'Noto Sans Symbols', Symbola, Quivira, '和田研中丸ゴシック2004絵文字', WadaLabChuMaruGo2004Emoji, '和田研細丸ゴシック2004絵文字', WadaLabMaruGo2004Emoji, 'DejaVu Sans', 'VL Pゴシック', YOzFont, 'Nishiki-teki', 'Android Emoji', 'Sun-ExtA', symbols, places, people, objects, nature, fantasy;;
+}
+
+body.os-other .icon {
   /* wingdings も emoji もダメな場合は
   表示を消す予定。けど、いったんこのままにします。*/
   /*display: none;*/
 }
 
-.fb-link-box{
+.fb-link-box {
   text-align: center;
 }
 
-.fb-link-box--link{
+.fb-link-box--link {
   padding: 1em;
   background: #000;
   border-radius: 20px;
@@ -147,7 +151,7 @@ body.os-other .icon{
   border: 2px solid #000;
 }
 
-.fb-link-box--link:hover{
+.fb-link-box--link:hover {
   border: 2px solid #000;
   background: transparent;
   color: #000;
@@ -171,10 +175,9 @@ body.os-other .icon{
 
 }
 
-
 @media screen and (max-width: 640px) {
 
-  body{
+  body {
     padding: 10px;
     font-size: 14px;
   }
@@ -197,11 +200,9 @@ body.os-other .icon{
   }
 }
 
-
-
 /* videos
 =========================== */
-.videos-box{
+.videos-box {
   width: 100%;
 }
 
@@ -213,7 +214,6 @@ body.os-other .icon{
   box-sizing: border-box;
 }
 
-
 @media screen and (max-width: 1600px) {
   .videos-box__item {
     width: 50%;
@@ -224,31 +224,58 @@ body.os-other .icon{
   .videos-box__item:nth-child(3n) {
     clear: both;
     float: none;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-
 
 @media screen and (max-width: 800px) {
   .videos-box__item {
     width: 100%;
     clear: both;
     float: none;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
+/* guest-book
+=========================== */
+.guest-book {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.guest-book__link {
+  display: inline-block;
+}
+
+.guest-book__icon {
+  font-size: 80px;
+}
+
+.guest-book__text-link {
+  border-bottom: 2px solid #000;
+}
+
+.guest-book a {
+  text-decoration: none;
+  color: #000;
+}
+
+.guest-book a:hover .guest-book__text-link {
+  background: #000;
+  color: #fff;
+}
 
 /* animations
 =========================== */
-.front{
+.front {
   z-index: 1;
   position: relative;
 }
 
-.moon{
+.moon {
   font-family: sans-serif;
   font-size: 200px;
   position: fixed;
@@ -258,12 +285,12 @@ body.os-other .icon{
   -moz-animation: moon-rise 60s infinite linear;
   -webkit-animation: moon-rise 60s infinite linear;
   animation: moon-rise 60s infinite linear;
-  animation-timing-function:ease-in-out;
-  -webkit-animation-timing-function:ease-in-out;
-  -moz-animation-timing-function:ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
 }
 
-.sun{
+.sun {
   font-family: sans-serif;
   font-size: 200px;
   position: fixed;
@@ -273,21 +300,20 @@ body.os-other .icon{
   -moz-animation: sun-rise 60s infinite linear;
   -webkit-animation: sun-rise 60s infinite linear;
   animation: sun-rise 60s infinite linear;
-  animation-timing-function:ease-in-out;
-  -webkit-animation-timing-function:ease-in-out;
-  -moz-animation-timing-function:ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-timing-function: ease-in-out;
 }
 
-@media
-(-webkit-min-device-pixel-ratio: 2),
+@media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
-  .moon, .sun{
+  .moon, .sun {
     font-size: 120px;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .moon, .sun{
+  .moon, .sun {
     font-size: 100px;
   }
 }
@@ -311,6 +337,7 @@ body.os-other .icon{
     background-color: #FFFF66;
   }
 }
+
 @keyframes bgAnime {
   0% {
     background-color: #FFFF66;
@@ -329,33 +356,31 @@ body.os-other .icon{
   }
 }
 
-
-
 @-webkit-keyframes moon-rise {
   0% {
     left: 0;
     top: 100%;
-    margin-left:0;
+    margin-left: 0;
   }
   25% {
     left: 100%;
     top: 50%;
-    margin-left:-1em;
+    margin-left: -1em;
   }
   50% {
     left: 0;
     top: 0;
-    margin-left:0;
+    margin-left: 0;
   }
   75% {
     left: 100%;
     top: 50%;
-    margin-left:-1em;
+    margin-left: -1em;
   }
   100% {
     left: 0;
     top: 100%;
-    margin-left:0;
+    margin-left: 0;
   }
 }
 
@@ -363,84 +388,83 @@ body.os-other .icon{
   0% {
     left: 0;
     top: 100%;
-    margin-left:0;
+    margin-left: 0;
   }
   25% {
     left: 100%;
     top: 50%;
-    margin-left:-1em;
+    margin-left: -1em;
   }
   50% {
     left: 0;
     top: 0;
-    margin-left:0;
+    margin-left: 0;
   }
   75% {
     left: 100%;
     top: 50%;
-    margin-left:-1em;
+    margin-left: -1em;
   }
   100% {
     left: 0;
     top: 100%;
-    margin-left:0;
+    margin-left: 0;
   }
 }
-
 
 @-webkit-keyframes sun-rise {
   0% {
     left: 100%;
-    margin-left:-1em;
+    margin-left: -1em;
     top: 0;
   }
   25% {
     left: 0;
-    margin-left:0;
+    margin-left: 0;
     top: 50%;
   }
   50% {
     left: 100%;
     top: 100%;
-    margin-left:-1em;
+    margin-left: -1em;
   }
   75% {
     left: 0;
     top: 50%;
-    margin-left:0;
+    margin-left: 0;
   }
   100% {
     left: 100%;
     top: 0;
-    margin-left:-1em;
+    margin-left: -1em;
   }
 }
 
 @keyframes sun-rise {
   0% {
     left: 100%;
-    margin-left:-1em;
+    margin-left: -1em;
     top: 0;
   }
   25% {
     left: 0;
-    margin-left:0;
+    margin-left: 0;
     top: 50%;
   }
   50% {
     left: 100%;
     top: 100%;
-    margin-left:-1em;
+    margin-left: -1em;
   }
   75% {
     left: 0;
     top: 50%;
-    margin-left:0;
+    margin-left: 0;
   }
   100% {
     left: 100%;
     top: 0;
-    margin-left:-1em;
+    margin-left: -1em;
   }
 }
 
